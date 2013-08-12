@@ -1,15 +1,19 @@
 __原文地址：__
+
 http://stackoverflow.com/questions/111102/how-do-javascript-closures-work
 
 __问题原文：__
+
 JavaScript闭包如何工作？ 
 
 __问题补充：__
+
 就像爱因斯坦[说过](http://www.searchquotes.com/quotation/If_you_can%27t_explain_it_to_a_six_year_old,_you_don%27t_understand_it_yourself./333069/)：“如果一件事情你不能向6岁小孩解释清楚，那么你自己并未真正的理解它”，然而，我试图向一个27岁的朋友解释JavaScript闭包结果失败了。
 
 你会怎样向一个对那种话题感兴趣6岁小孩解释清楚呢？
 
 __回答1：__
+
 当你看到function关键字在另一个函数里，内部的函数可以访问外部函数的变量
 ```javascript
 function foo(x) {
@@ -62,4 +66,5 @@ bar(10);
 再次调用<code>bar</code>后，age.memb值将会变成2！这个引用是导致HTML对象内存泄露的基本原因。
 
 __本人理解:__
+
 闭包对初学者总是很难理解，因为一搜往往是一大堆概念，当时可能理解了，过后就忘了，我对闭包有更深入的了解来源于这篇文章[深入理解JavaScript闭包(closure)](http://www.felixwoo.com/archives/247) ，我也强烈推荐一下。

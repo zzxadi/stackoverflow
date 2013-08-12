@@ -1,10 +1,13 @@
 __原文地址：__
+
 http://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
 
 __问题原文：__
+
 "严格模式"在JavaScript有什么用，背后的原因又是什么呢？
 
 __问题补充：__
+
 最近，我在[老道](http://www.crockford.com/)的[JSLint](http://www.jslint.com/)运行JavaScript，结果抛出如下错误:
 
 > Problem at line 1 character 1: Missing "use strict" statement.
@@ -17,6 +20,7 @@ __问题补充：__
 是现在有浏览器支持“use strict"还是它是为了以后使用？
 
 __回答1：__
+
 你也许会对这篇文章感兴趣：[John Resig - ECMAScript 5 Strict Mode, JSON, and More](http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/)
 
 引用相关部分：
@@ -47,4 +51,5 @@ __回答1：__
 所以，我想它很像在Perl中使用的"use strict"(这就是名字的来源？):"use strict"通过检查更多的可能导致破坏的东西来使你犯更少的错误
 
 __本人理解:__
+
 虽然知道，但是基本没有使用过，本来这个也不难，推荐阮一峰的一篇文章[Javascript 严格模式详解](http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html)
