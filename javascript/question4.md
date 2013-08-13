@@ -26,4 +26,5 @@ window.location.href = "http://stackoverflow.com";
 ```
 
 __本人理解:__
+
 这是一个很简单但基本很少去注意的细节，location.replace()，多数人都看过，但基本没用过，更不会注意跳转还有这点区别。
