@@ -24,7 +24,7 @@ function getParameterByName(name) {
 
 __本人理解:__
 
-在项目中获取URL上的查询字符串是很常见的操作，比如有一段地址:<code>http://www.stackoverflow.com?username=zzxadi&sex=male&age=24</code>,要取得sex的值，怎么办呢？
+在项目中获取URL上的查询字符串是很常见的操作，比如有一段地址:`http://www.stackoverflow.com?username=zzxadi&sex=male&age=24`,要取得sex的值，怎么办呢？
 这是我项目中使用的代码
 ```js
 function getUrlParam(sName)

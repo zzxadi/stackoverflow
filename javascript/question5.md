@@ -11,7 +11,7 @@ __问题补充：__
 在JavaScript中如何判断一个字符串包含另一个字符串？
 我通常会期望一个`String.contains()`方法，但是这里好像没有
 
-<hr>
+-----
 更新：好像我又有其他问题
 
 当我使用`indexof`时，Firefox拒绝执行JavaScript代码
