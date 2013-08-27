@@ -4,11 +4,11 @@ http://stackoverflow.com/questions/114543/how-to-center-a-div-in-a-div-horizonta
 
 __问题原文：__
 
-如何在一个div中的div水平居中？
+如何让在一个div内部的div水平居中？
 
 __问题补充：__
 
-在CSS中如何让一个`div`中的`div`水平居中(如果可能的话)?
+在CSS中如何让在一个`div`内部的`div`水平居中(如果可能的话)?
 
 外部的`div`宽度为100%
 
